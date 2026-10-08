@@ -1,5 +1,4 @@
 # SL-Nexus
-
 ---
 
 SL-Nexus is a browser based rocketry toolkit for my eco-system called Silicon Labs. Similar projects like these can be found on my github profile like [SL-OmniTrack](https://github.com/shivamvcx/SL-OmniTrack) and main rocket project which is [SL-60T-mk1](https://github.com/shivamvcx/SL-60T-mk1)
@@ -25,4 +24,4 @@ This project mainly target that `.csv` file and extract important information fr
 - Velocity vs Time
 - Acceleration vs Time
 
-** I have planned more things but not finalized it so it'll be in ![Scope.md](/docs/scope.md)  
+** I have planned more things but not finalized it so it'll be in [scope.md](/docs/scope.md)  
