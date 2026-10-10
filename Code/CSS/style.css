@@ -1,0 +1,27 @@
+body {
+  background-color: #121212;
+}
+
+.hero_container {
+   display: flex;
+   align-items: center;
+   min-height: 100vh;
+}
+
+#nexus_title {
+  font-family: "Isometra", serif;
+  font-size: 8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  transform: translateY(15rem);
+}
+
+#gts_div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform: translateY(15rem);
+}
