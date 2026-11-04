@@ -1,0 +1,43 @@
+body {
+  background-color: #000000;
+  display: grid;
+}
+
+#brand-card {
+  background-color: white;
+  border: 2px solid black;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+#brand-card #logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-left: 0.4rem;
+}
+
+#brand-card #name {
+  margin-left: auto;
+  margin-right: 0.8rem;
+  text-decoration: none;
+  color: black;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-weight: 500;
+  font-size: medium;
+}
+
+#bh-container {
+  display: flex;
+  justify-content: flex-end; /* Pushes the child div to the far right */
+  width: 100%;
+}
+
+#bh-container #black-hole {
+  max-width: 100%;
+  justify-content: center;
+}
+
