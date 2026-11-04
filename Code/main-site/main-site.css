@@ -1,0 +1,14 @@
+body {
+  background-color: #000000;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#sign {
+  color: white;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  text-align: center;
+}

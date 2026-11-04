@@ -1,9 +1,23 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   background-color: #000000;
+  margin: 0;
+  height: 100dvh;
+  overflow: hidden;
   display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto minmax(0, 1fr);
+  grid-template-areas:
+    "brand brand"
+    "title hole";
 }
 
 #brand-card {
+  grid-area: brand;
   background-color: white;
   border: 2px solid black;
   width: 10rem;
@@ -31,13 +45,52 @@ body {
 }
 
 #bh-container {
-  display: flex;
-  justify-content: flex-end; /* Pushes the child div to the far right */
-  width: 100%;
+  grid-area: hole;
+  min-height: 0;
 }
 
 #bh-container #black-hole {
+  display: block;
+  height: 100%;
+  width: auto;
   max-width: 100%;
-  justify-content: center;
 }
 
+#title-container-and-link {
+  grid-area: title;
+  align-self: center;
+  justify-self: center;
+  padding-right: 1rem;
+}
+
+#title {
+  color: white;
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 25mm;
+  margin-top: -10rem;
+}
+
+#button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 3rem;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 2rem;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-weight: 500;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+#button:hover {
+  background-color: white;
+  color: black;
+}
