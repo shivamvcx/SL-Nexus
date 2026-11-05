@@ -1,0 +1,12 @@
+{
+  "name": "sl-nexus",
+  "version": "1.0.0",
+  "description": "Silicon Labs SL-Nexus project",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
