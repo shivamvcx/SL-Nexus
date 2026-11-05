@@ -1,0 +1,23 @@
+{
+  "name": "sl-nexus",
+  "version": "1.0.0",
+  "description": "SL-Nexus is a browser based rocketry toolkit for Silicon Labs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamvcx/SL-Nexus.git"
+  },
+  "keywords": [
+    "rocketry",
+    "silicon-labs",
+    "toolkit"
+  ],
+  "author": "shivamvcx",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  }
+}
